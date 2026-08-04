@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="forgeeggmod"
+version="1.0.0"
+displayName="Forge Egg Mod"
+authors="Example"
+description='''
+Мод добавляет яйцо призыва кузницы в биоме plains.
+Внутри кузницы находится сундук с 64 алмазами и 64 хлебом.
+'''
+
+[[dependencies.forgeeggmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forgeeggmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
